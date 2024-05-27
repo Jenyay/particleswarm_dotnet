@@ -1,2 +1,10 @@
-# particleswarm_dotnet
-Particle swarm optitization
+# Реализация алгоритма роя частиц на C#
+
+Эти исходники - дополнение к статье [Алгоритм роя частиц](https://jenyay.net/Programming/ParticleSwarm) на сайте [jenyay.net](https://jenyay.net).
+
+Данный solution для Visual Studio 2022 включает в себя следующие проекты:
+
+- **ParticleGui** - графическое приложение с демонстрацией работы алгоритма.
+- **Particle_X2_console** - консольное приложение, минимизирующее функцию y = x^2.
+- **Particle_Schwefel_console** - консольное приложение, минимизирующее функцию Швефеля.
+- **Particle_Rastrigin_console** - консольное приложение, минимизирующее функцию Растригина.
